@@ -347,6 +347,10 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Programma</h2>
 
+<div class="alert alert-warning">
+Il laboratorio è inteso come un unico pacchetto composto da quattro giornate. Vi preghiamo di non iscrivervi se non siete intenzionati a partecipare a tutte le lezíoni.
+</div>
+
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
 {% elsif site.carpentry == "dc" %}
