@@ -10,7 +10,7 @@ language: "it"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "41"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "12"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "27-28 gennaio, 3-4 febbraio"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9.00 - 13.00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "9:00 - 13:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2022-01-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2022-02-04        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Marco Crotti", "Luca Di Stasio", "Lisanna Paladin", "Martino Sorbaro", "TBA"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -66,7 +66,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <strong>Alcuni adblocker bloccano la finestra di registrazíone. Se non vedi qui sotto il riquadro per la registrazíone,
-  controlla le impostazíóni del tuo adblocker.</strong>
+  controlla le impostazíoni del tuo adblocker.</strong>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
