@@ -13,7 +13,7 @@ humandate: "27-28 gennaio, 3-4 febbraio"    # human-readable dates for the works
 humantime: "9:00 - 13:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2022-01-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2022-02-04        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Marco Crotti", "Luca Di Stasio", "Lisanna Paladin", "Martino Sorbaro", "TBA"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Marco Crotti", "Silvia Di Giorgio", "Luca Di Stasio", "Lisanna Paladin", "Martino Sorbaro"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Giacomo Peru", "Loredana Le Pera"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["carpentries.italia@gmail.com", "martino.sorbaro@posteo.net"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2022-01-27-italia-online # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
